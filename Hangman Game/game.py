@@ -191,4 +191,4 @@ while not acertou:
                 print(board[6])
                 print("\033[31m\nVocê Perdeu!")
                 print("A palavra era %s\033[m"%(palavra))
-                acertou = True
+                break
